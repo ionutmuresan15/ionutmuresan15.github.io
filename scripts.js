@@ -53,7 +53,7 @@ function clearOutputDoOnce() {
 }
 
 function resetOnce() {
-  // Note that we are setting `SameSite=None;` in this example because the example
+  // Note that we are setting `SameSite=None;` in this example because the examples
   // needs to work cross-origin.
   // It is more common not to set the `SameSite` attribute, which results in the default,
   // and more secure, value of `SameSite=Lax;`
